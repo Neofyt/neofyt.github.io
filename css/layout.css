@@ -35,10 +35,6 @@ body {
     clear: both;
 }
 
-.wrapper {
-	margin: 50px auto 0;
-}
-
 h1 {
 	font-size: 30px;
 	line-height: 35px;
@@ -54,7 +50,7 @@ h2, h3 {
 }
 
 section {
-    margin: 20px auto;
+    margin: 50px auto 0;
     max-width: 1020px;
     padding: 20px;
 }
