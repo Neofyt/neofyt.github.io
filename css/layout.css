@@ -89,8 +89,7 @@ a {
 }
 
 a:hover {
-	background-color: #558Ed5;
-	color: #fff;
+	text-decoration: underline;
 }
 
 .post__title a {
