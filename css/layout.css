@@ -55,7 +55,7 @@ section {
     padding: 20px;
 }
 
-.content {
+article {
     float: right;
     max-width: 750px;
     min-width: 300px;
@@ -127,6 +127,7 @@ footer {
 	border-top: solid 1px #efefef;
 	color: #bbb;
 	margin-top: 50px;
+	font-style: italic;
 }
 
 footer p {
