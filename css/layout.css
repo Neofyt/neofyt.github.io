@@ -62,14 +62,12 @@ section {
     width: -webkit-calc(100% - 250px - 20px);
     width: -o-calc(100% - 250px - 20px);
     width: calc(100% - 250px - 20px);
-    /*background: lightblue;*/
 }
 
 aside {
     float: left;
     max-width: 250px;
     width: 250px;
-    /*background: wheat;*/
 }
 
 ul {
@@ -105,6 +103,7 @@ a:hover {
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 25px;
+	color: #656565;
 }
 
 .avatar__img {
