@@ -107,9 +107,9 @@ a:hover {
 }
 
 .avatar__img {
-	-webkit-box-shadow: 0 4px 4px -2px #AAA;
+	-webkit-box-shadow: 0 4px 4px -2px #aaa;
 	-moz-box-shadow: 0 4px 4px -2px #aaa;
-	box-shadow: 0 4px 4px -2px #AAA;
+	box-shadow: 0 4px 4px -2px #aaa;
 	width: 100px;
 	height: 100px;
 	background: #fafafa;
@@ -123,3 +123,13 @@ p {
 	margin-bottom: 30px;
 }
 
+footer {
+	border-top: solid 1px #efefef;
+	color: #bbb;
+	margin-top: 50px;
+}
+
+footer p {
+	text-indent: 0;
+	margin-top: 5px;
+}
