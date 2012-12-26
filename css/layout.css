@@ -118,3 +118,8 @@ a:hover {
 	outline: solid 1px #ccc;
 	padding: 5px;
 }
+
+p {
+	line-height: 22px;
+	text-indent: 20px;
+}
