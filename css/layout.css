@@ -123,6 +123,9 @@ aside img {
 
 article img {
 	width: 400px;
+	position: relative;
+	left: 50%;
+	margin-left: -205px;
 }
 
 p {
