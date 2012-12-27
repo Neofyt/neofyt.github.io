@@ -9,7 +9,11 @@ meta: Exemple de meta
 
 ## This is a test of Jekyll on Github
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu felis a metus vehicula convallis vitae a nisi. Etiam fringilla, odio sed dictum sodales, orci nisl venenatis elit, vel lacinia massa sem eu nisi. Aenean sit amet lacus lorem. Integer at erat risus. Morbi placerat mi et turpis hendrerit suscipit. Pellentesque venenatis sollicitudin ullamcorper. Nunc interdum, ipsum blandit tincidunt tempus, sapien sem interdum erat, ac convallis neque dolor sed libero. Maecenas placerat tempor enim id mattis. Integer nibh est, lacinia sed pulvinar nec, iaculis sit amet sem. Aliquam erat volutpat. Morbi sagittis fringilla convallis. Aliquam vitae massa quis orci tempor euismod. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Aenean nec tellus magna. Pellentesque gravida dapibus mauris, ac ullamcorper tellus malesuada quis.  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu felis a metus vehicula convallis vitae a nisi. Etiam fringilla, odio sed dictum sodales, orci nisl venenatis elit, vel lacinia massa sem eu nisi. Aenean sit amet lacus lorem. Integer at erat risus. Morbi placerat mi et turpis hendrerit suscipit. Pellentesque venenatis sollicitudin ullamcorper. Nunc interdum, ipsum blandit tincidunt tempus, sapien sem interdum erat, ac convallis neque dolor sed libero. 
+
+![Image alt text](http://api.neofyt.com/img/?500.200.558ed5.ffffff "Optional title")
+
+Maecenas placerat tempor enim id mattis. Integer nibh est, lacinia sed pulvinar nec, iaculis sit amet sem. Aliquam erat volutpat. Morbi sagittis fringilla convallis. Aliquam vitae massa quis orci tempor euismod. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Aenean nec tellus magna. Pellentesque gravida dapibus mauris, ac ullamcorper tellus malesuada quis.  
 
 ### Title l3
 
