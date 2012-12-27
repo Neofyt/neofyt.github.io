@@ -14,6 +14,7 @@ body {
 	background: #fafafa url("/img/css/generated.png") 0 0 repeat;
 	font-size: 14px;
 	color: #656565;
+	overflow-x: scroll;
 }
 
 	body:before { /* top shadow */ 
@@ -26,14 +27,6 @@ body {
 		box-shadow: 0px 0px 10px rgba(0,0,0,.3);  
 		z-index: 100; 
 	}
-
-.clearfix:before, .clearfix:after {
-    content: " ";
-    display: table;
-}
-.clearfix:after {
-    clear: both;
-}
 
 h1 {
 	font-size: 30px;
@@ -53,6 +46,15 @@ section {
     margin: 50px auto 0;
     max-width: 1020px;
     padding: 20px;
+}
+
+section:before, section:after {
+    content: " ";
+    display: table;
+}
+
+section:after {
+    clear: both;
 }
 
 article {
@@ -153,8 +155,4 @@ pre{
     border-left: solid 1px #999;
     font-size: 12px;
     line-height: 20px;
-}
-
-b {
-	background: #ff8;
 }
