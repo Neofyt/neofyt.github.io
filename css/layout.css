@@ -105,15 +105,22 @@ a:hover {
 	color: #656565;
 }
 
-.avatar__img {
+img {
 	-webkit-box-shadow: 0 4px 4px -2px #aaa;
 	-moz-box-shadow: 0 4px 4px -2px #aaa;
 	box-shadow: 0 4px 4px -2px #aaa;
-	width: 100px;
-	height: 100px;
 	background: #fafafa;
 	outline: solid 1px #ccc;
 	padding: 5px;
+}
+
+aside img {
+	width: 100px;
+	height: 100px;
+}
+
+article img {
+	width: 400px;
 }
 
 p {
