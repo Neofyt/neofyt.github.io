@@ -14,7 +14,7 @@ body {
 	background: #fafafa url("/img/css/generated.png") 0 0 repeat;
 	font-size: 14px;
 	color: #656565;
-	overflow-x: scroll;
+	overflow-y: scroll;
 }
 
 	body:before { /* top shadow */ 
