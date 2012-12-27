@@ -140,3 +140,12 @@ footer p {
 	text-indent: 0;
 	margin-top: 5px;
 }
+
+pre,code {
+    font-family:"Inconsolata", "Monaco", "Consolas", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+    padding:10px;
+    background-color:#eee;
+    overflow:auto;
+    margin: 20px 0;
+    border-left: solid 1px #999;
+}
