@@ -11,3 +11,25 @@ home: yes
 		</li>
 	{% endfor %}
 </ul>
+
+<ol>
+    <li>
+        {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+            <a href="/">Previous</a>
+        {% else %}
+            <a href="/page{{paginator.previous_page}}">Previous</a>
+        {% endif %}
+        {% else %}
+            Previous
+        {% endif %}
+    </li><!--
+    
+ --><li>
+        {% if paginator.next_page %}
+            <a href="/page{{paginator.next_page}}">Next</a>
+        {% else %}
+            Next
+        {% endif %}
+    </li>
+</ol>
