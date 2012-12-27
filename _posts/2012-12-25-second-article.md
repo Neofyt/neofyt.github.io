@@ -4,7 +4,6 @@ date: 2012-12-25
 layout: post
 slug: second-article
 title: Second article
-meta: Exemple de meta
 ---
 
 ## This is a test of Jekyll on Github
