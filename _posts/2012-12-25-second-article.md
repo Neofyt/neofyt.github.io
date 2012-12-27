@@ -13,14 +13,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu felis a metu
 
 ![Image alt text](http://api.neofyt.com/img/?400.200.558ed5.ffffff "Optional title")
 
-Maecenas placerat tempor enim id mattis. Integer nibh est, lacinia sed pulvinar nec, iaculis sit amet sem. Aliquam erat volutpat. Morbi sagittis fringilla convallis. Aliquam vitae massa quis orci tempor euismod. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Aenean nec tellus magna. Pellentesque gravida dapibus mauris, ac ullamcorper tellus malesuada quis.  
+Maecenas placerat tempor enim id mattis. Integer nibh est, lacinia sed pulvinar nec, iaculis sit amet sem. Aliquam erat volutpat. Morbi sagittis fringilla convallis. Aliquam vitae massa quis orci tempor euismod. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Aenean nec tellus magna. Pellentesque gravida dapibus mauris, ac ullamcorper tellus malesuada quis.
 
 ### Title l3
 
 Praesent scelerisque erat ut elit venenatis posuere. Nullam quis lorem et neque sollicitudin vehicula in nec massa. In commodo vestibulum quam et tincidunt. Pellentesque et elit vel nisi aliquam fermentum a quis velit. Vestibulum pretium accumsan enim, at scelerisque massa viverra ac. Praesent venenatis vestibulum felis a fringilla. Nulla vitae sem nibh. 
 
 	$("#tableId").selectr({
-	<b>highlight: "classname"</b>
+		highlight: "classname"
 	});
 
 Ut fringilla tellus quis eros feugiat placerat aliquam enim sagittis. Integer vitae est eget massa posuere mattis. Nulla eu tellus quam. Praesent iaculis, magna eget suscipit elementum, sem lectus venenatis nunc, et hendrerit ligula eros lobortis felis. Maecenas molestie lectus eget elit consequat vel luctus dui feugiat.
