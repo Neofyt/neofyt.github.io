@@ -1,5 +1,5 @@
 /* Mini-reset */
-body, ul, ol, li, h1, h2, h3, article, section, aside, footer, pre, code {
+body, ul, ol, li, h1, h2, article, section, aside, footer, pre, code {
     margin: 0;
     padding: 0;
     border: 0;
@@ -35,11 +35,12 @@ h1 {
 	margin: 0 0 50px 0;
 }
 
-h2, h3 {
+h2 {
 	margin: 15px 0 0;
 	padding-bottom: 15px;
 	font-weight: 300;
 	color: #558ed5;
+	font-size: 22px;
 }
 
 section {
@@ -76,6 +77,7 @@ aside p {
 	width: 190px;
 	margin-top: 30px;
 	border-right: solid 1px #ccc;
+	font-size: 12px;
 }
 
 ul, ol {
