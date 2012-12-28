@@ -80,8 +80,12 @@ ul li {
 	border-bottom: solid 1px #efefef;
 }
 
-ul li:last-child{
+ul li:last-child {
 	border: 0;
+}
+
+ol {
+	margin-top: 50px;
 }
 
 ol li {
