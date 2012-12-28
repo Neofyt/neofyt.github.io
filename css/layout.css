@@ -128,7 +128,7 @@ img {
 	-moz-box-shadow: 0 4px 4px -2px #aaa;
 	box-shadow: 0 4px 4px -2px #aaa;
 	background: #fafafa;
-	outline: solid 1px #ccc;
+	border: solid 1px #ccc;
 	padding: 5px;
 }
 
