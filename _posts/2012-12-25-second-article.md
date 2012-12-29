@@ -19,7 +19,7 @@ Maecenas placerat tempor enim id mattis. Integer nibh est, lacinia sed pulvinar 
 Praesent scelerisque erat ut elit venenatis posuere. Nullam quis lorem et neque sollicitudin vehicula in nec massa. In commodo vestibulum quam et tincidunt. Pellentesque et elit vel nisi aliquam fermentum a quis velit. Vestibulum pretium accumsan enim, at scelerisque massa viverra ac. Praesent venenatis vestibulum felis a fringilla. Nulla vitae sem nibh. 
 
 <pre><code>$("#tableId").selectr({
-	<b>highlight: "classname"</b><span>// This is a comment</span>
+	<b>highlight: "classname"</b><span> // This is a comment</span>
 });</code></pre>
 
 Ut fringilla tellus quis eros feugiat placerat aliquam enim sagittis. Integer vitae est eget massa posuere mattis. Nulla eu tellus quam. Praesent iaculis, magna eget suscipit elementum, sem lectus venenatis nunc, et hendrerit ligula eros lobortis felis. Maecenas molestie lectus eget elit consequat vel luctus dui feugiat.
