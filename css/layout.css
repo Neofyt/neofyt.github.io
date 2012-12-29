@@ -1,9 +1,10 @@
 /* Mini-reset */
-body, ul, ol, li, h1, h2, article, section, aside, footer, pre, code {
+body, b, ul, ol, li, h1, h2, article, section, aside, footer, pre, code {
     margin: 0;
     padding: 0;
     border: 0;
 	font-size: 100%;
+	font-weight: normal;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -166,7 +167,7 @@ pre,code {
     font-family:"Inconsolata", "Monaco", "Consolas", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
 }
 
-pre{
+pre {
     padding: 10px 15px;
     background-color: #f6f6f6;
     overflow: auto;
@@ -174,6 +175,11 @@ pre{
     border-left: solid 1px #558ed5;
     font-size: 12px;
     line-height: 20px;
+}
+
+code span {
+	color: #999;
+	font-style: italic;
 }
 
 b {
