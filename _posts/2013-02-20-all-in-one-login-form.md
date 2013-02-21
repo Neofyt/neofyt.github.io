@@ -6,20 +6,24 @@ slug: all-in-one-login-form
 title: All in one login form
 ---
 
-## All in one login form
 
-In the middle of redesigning a web chat, I choose to create a light design inspired by the work of ALex Pankratov 
+Some times ago I decided to redesign a webchat I use to communicate with friends. The site was getting old and so the design. There were two versions of the app, one for desktop browser and one for mobile phone. There was no consistency between these two. The site was created to be fast but I thought some rewrite of the template, the css or even the js could make it even better. I started my work on it...  
+Then the work of [Alex Pankratov](http://swappedcc.com/) came back to my mind and I decided to take some inspiration from it.
 
-![Login form - initial state](/img/posts/2013-02-20-login-form_initial-state.jpg "Login form - initial state")
+## A source of inspiration
 
-Maecenas placerat tempor enim id mattis. Integer nibh est, lacinia sed pulvinar nec, iaculis sit amet sem. Aliquam erat volutpat. Morbi sagittis fringilla convallis. Aliquam vitae massa quis orci tempor euismod. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Aenean nec tellus magna. Pellentesque gravida dapibus mauris, ac ullamcorper tellus malesuada quis.
+Alex aims to provide pretty straightforward interfaces such as the one created for [Bvckup2](http://bvckup2.com/). His shots on [Dribbble](http://dribbble.com/apankrat) are also very interesting and show many possibilities of designs he tried which came to life or not, but there is always something to learn.
 
-## Another title
+## A call for simplicity
 
-Praesent scelerisque erat ut elit venenatis posuere. Nullam quis lorem et neque sollicitudin vehicula in nec massa. In commodo vestibulum quam et tincidunt. Pellentesque et elit vel nisi aliquam fermentum a quis velit. Vestibulum pretium accumsan enim, at scelerisque massa viverra ac. Praesent venenatis vestibulum felis a fringilla. Nulla vitae sem nibh. 
 
-<div class=gif-player>
+
+<div class="gif-player">
 	<img class="gif-still" src="/img/posts/2013-02-20-login-form_initial-state.jpg">
 	<img class="gif-movie"	gif="/img/posts/2013-02-20-login-form_animated.gif">
-	<div class=gif-ctrl></div>
+	<div class="gif-ctrl"></div>
 </div>
+
+
+
+![Login form - initial state](/img/posts/2013-02-20-login-form_initial-state.jpg "Login form - initial state")

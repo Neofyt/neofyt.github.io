@@ -186,23 +186,19 @@ b {
 	background: #ff8;
 }
 
-.gif-player {
-
-		}
-
-		.gif-player .canvas {
-			background: #111;
-			box-shadow: 0px 1px 3px #888;
-			margin-bottom: 10px;
-			border: 10px solid white;
-		}
+.gif-player .canvas {
+	background: #111;
+	box-shadow: 0px 1px 3px #888;
+	margin-bottom: 10px;
+	border: 10px solid white;
+}
 
 		.gif-player .canvas img {
 			display: block;
 		}
 
 		.gif-ctrl {
-			margin: 0 auto;
+			margin: 5px auto;
 			width: 34px;
 			height: 33px;
 			background-image: url('/img/css/buttons.png');
