@@ -20,4 +20,20 @@ Praesent scelerisque erat ut elit venenatis posuere. Nullam quis lorem et neque 
 
 ![Login form - animated](/img/posts/2013-02-20-login-form_animated.gif "Login form - whole sequence")
 
-Ut fringilla tellus quis eros feugiat placerat aliquam enim sagittis. Integer vitae est eget massa posuere mattis. Nulla eu tellus quam. Praesent iaculis, magna eget suscipit elementum, sem lectus venenatis nunc, et hendrerit ligula eros lobortis felis. Maecenas molestie lectus eget elit consequat vel luctus dui feugiat.
+<div class=gif-player>
+	<img class="gif-still gif-ctrl" src="/img/posts/2013-02-20-login-form_initial-state.jpg">
+	<img class="gif-movie gif-ctrl"	gif="/img/posts/2013-02-20-login-form_animated.gif">
+	<div>
+		State: 
+		<span class=gif-info-e>ready to load</span>
+		<span class=gif-info-l>loading ...</span>
+		<span class=gif-info-s>ready to play</span>
+		<span class=gif-info-p>playing</span>
+	</div>
+	<div class=gif-ctrl>
+		<span class=gif-ctrl-l>Load</span>
+		<span class=gif-ctrl-c>Cancel</span>
+		<span class=gif-ctrl-p>Play</span>
+		<span class=gif-ctrl-s>Stop</span>
+	</div>
+</div>

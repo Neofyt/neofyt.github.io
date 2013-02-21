@@ -7,7 +7,7 @@
 	<title>{{ page.title }} &ndash; Neofyt.com</title>
 	
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:300"/>	
-	<link rel="stylesheet" href="/css/layout.min.css">
+	<link rel="stylesheet" href="/css/layout.css">
 	
 	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 </head>
@@ -34,6 +34,21 @@
 	    </article>
 		    
 	</section>
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="/js/gif-player.js"></script>
+
+	<script>
+		$(document).ready( function(){
+
+			$('.gif-player').each(function(){
+
+				var self = $(this);
+				this.gp = new gifPlayer(self, { autoplay: false });
+
+			});
+		});
+	</script>
 
 </body>
 </html>
