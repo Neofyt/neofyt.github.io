@@ -18,8 +18,6 @@ Maecenas placerat tempor enim id mattis. Integer nibh est, lacinia sed pulvinar 
 
 Praesent scelerisque erat ut elit venenatis posuere. Nullam quis lorem et neque sollicitudin vehicula in nec massa. In commodo vestibulum quam et tincidunt. Pellentesque et elit vel nisi aliquam fermentum a quis velit. Vestibulum pretium accumsan enim, at scelerisque massa viverra ac. Praesent venenatis vestibulum felis a fringilla. Nulla vitae sem nibh. 
 
-![Login form - animated](/img/posts/2013-02-20-login-form_animated.gif "Login form - whole sequence")
-
 <div class=gif-player>
 	<img class="gif-still gif-ctrl" src="/img/posts/2013-02-20-login-form_initial-state.jpg">
 	<img class="gif-movie gif-ctrl"	gif="/img/posts/2013-02-20-login-form_animated.gif">
