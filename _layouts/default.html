@@ -39,20 +39,26 @@
 	<script type="text/javascript" src="/js/gif-player.min.js"></script>
 
 	<script>
-		$(document).ready( function(){
+		$(document).ready(function(){
 
-			function swapWithFade(have, want, done){
-		        have.fadeOut(function(){
-		            want.fadeIn(done);
-		        })
-		    }
+			/* preload the spinner */
+			var i = new Image;
+			i.src = '/img/css/cancel.gif';
 
-		    $('.gif-player').each(function(){
-		        var self = $(this);
-		        this.gp = new gifPlayer(self, { 
-			                play: swapWithFade,
-			                stop: swapWithFade });
-		    });
+			/* instantiate player(s) */
+			$('.gif-player').each(function(){
+
+				function swapWithFade(i1,i2,done) {
+					i1.fadeOut('fast', function(){ 
+						i2.fadeIn('fast',done);
+					});
+				}
+
+				var self = $(this);
+				this.gp = new gifPlayer(self, {
+					play: swapWithFade,
+					stop: swapWithFade });
+			});
 		});
 	</script>
 
