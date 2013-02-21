@@ -8,7 +8,7 @@ title: All in one login form
 
 ## All in one login form
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu felis a metus vehicula convallis vitae a nisi. Etiam fringilla, odio sed dictum sodales, orci nisl venenatis elit, vel lacinia massa sem eu nisi. Aenean sit amet lacus lorem. Integer at erat risus. Morbi placerat mi et turpis hendrerit suscipit. Pellentesque venenatis sollicitudin ullamcorper. Nunc interdum, ipsum blandit tincidunt tempus, sapien sem interdum erat, ac convallis neque dolor sed libero. 
+In the middle of redesigning a web chat, I choose to create a light design inspired by the work of ALex Pankratov 
 
 ![Login form - initial state](/img/posts/2013-02-20-login-form_initial-state.jpg "Login form - initial state")
 
@@ -18,8 +18,6 @@ Maecenas placerat tempor enim id mattis. Integer nibh est, lacinia sed pulvinar 
 
 Praesent scelerisque erat ut elit venenatis posuere. Nullam quis lorem et neque sollicitudin vehicula in nec massa. In commodo vestibulum quam et tincidunt. Pellentesque et elit vel nisi aliquam fermentum a quis velit. Vestibulum pretium accumsan enim, at scelerisque massa viverra ac. Praesent venenatis vestibulum felis a fringilla. Nulla vitae sem nibh. 
 
-<pre><code>$("#tableId").selectr({
-	<b>highlight: "classname"</b><span> // This is a comment</span>
-});</code></pre>
+![Login form - animated](/img/posts/2013-02-20-login-form_animated.gif "Login form - whole sequence")
 
 Ut fringilla tellus quis eros feugiat placerat aliquam enim sagittis. Integer vitae est eget massa posuere mattis. Nulla eu tellus quam. Praesent iaculis, magna eget suscipit elementum, sem lectus venenatis nunc, et hendrerit ligula eros lobortis felis. Maecenas molestie lectus eget elit consequat vel luctus dui feugiat.
