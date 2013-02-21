@@ -187,13 +187,7 @@ b {
 }
 
 .gif-player {
-			width: 420px;
-			height: 320px;
 
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			margin: -210px 0 0 -160px;
 		}
 
 		.gif-player .canvas {

@@ -21,17 +21,5 @@ Praesent scelerisque erat ut elit venenatis posuere. Nullam quis lorem et neque 
 <div class=gif-player>
 	<img class="gif-still gif-ctrl" src="/img/posts/2013-02-20-login-form_initial-state.jpg">
 	<img class="gif-movie gif-ctrl"	gif="/img/posts/2013-02-20-login-form_animated.gif">
-	<div>
-		State: 
-		<span class=gif-info-e>ready to load</span>
-		<span class=gif-info-l>loading ...</span>
-		<span class=gif-info-s>ready to play</span>
-		<span class=gif-info-p>playing</span>
-	</div>
-	<div class=gif-ctrl>
-		<span class=gif-ctrl-l>Load</span>
-		<span class=gif-ctrl-c>Cancel</span>
-		<span class=gif-ctrl-p>Play</span>
-		<span class=gif-ctrl-s>Stop</span>
-	</div>
+	<div class=gif-ctrl></div>
 </div>
