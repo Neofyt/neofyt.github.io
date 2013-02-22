@@ -23,7 +23,3 @@ Alex aims to provide pretty straightforward interfaces such as the one created f
 	<img class="gif-movie"	gif="/img/posts/2013-02-20-login-form_animated.gif">
 	<div class="gif-ctrl"></div>
 </div>
-
-
-
-![Login form - initial state](/img/posts/2013-02-20-login-form_initial-state.jpg "Login form - initial state")
