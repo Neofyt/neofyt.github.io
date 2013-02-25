@@ -11,7 +11,7 @@ Some times ago I decided to redesign a webchat I use to communicate with friends
 Then the work of [Alex Pankratov](http://swappedcc.com/) came back to my mind and I decided to take some inspiration from it.
 
 ## A source of inspiration
-<h2 name="inspiration" href="#inspiration">A source of inspiration</h2>
+<a name="inspiration" href="#inspiration"><h2>A source of inspiration</h2></a>
 
 Alex aims to provide pretty straightforward interfaces such as the one created for [Bvckup2](http://bvckup2.com/). His shots on [Dribbble](http://dribbble.com/apankrat) are also very interesting and show many possibilities of designs he tried which came to life or not, but there is always something to learn.
 
