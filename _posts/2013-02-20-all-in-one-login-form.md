@@ -14,7 +14,7 @@ Then the work of [Alex Pankratov](http://swappedcc.com/) came back to my mind an
 
 Alex aims to provide pretty straightforward interfaces such as the one created for [Bvckup2](http://bvckup2.com/). His shots on [Dribbble](http://dribbble.com/apankrat) are also very interesting and show many possibilities of designs he tried which came to life or not, but there is always something to learn.
 
-## A call for simplicity
+<a name="simplicity" href="#simplicity"><h2>A call for simplicity</h2></a>
 
 
 

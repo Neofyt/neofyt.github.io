@@ -193,48 +193,48 @@ b {
 	border: 10px solid white;
 }
 
-		.gif-player .canvas img {
-			display: block;
-		}
+	.gif-player .canvas img {
+		display: block;
+	}
 
-		.gif-ctrl {
-			margin: 5px auto;
-			width: 34px;
-			height: 33px;
-			background-image: url('/img/css/buttons.png');
-			cursor: pointer;
-		}
+	.gif-ctrl {
+		margin: 5px auto;
+		width: 34px;
+		height: 33px;
+		background-image: url('/img/css/buttons.png');
+		cursor: pointer;
+	}
 
-		/*
-		 *	"Empty" state, show "load" button
-		 */
-		.gif-player-e .gif-ctrl       { background-position:   0px 0px }
-		.gif-player-e .gif-ctrl:hover { background-position: -34px 0px }
+	/*
+	 *	"Empty" state, show "load" button
+	 */
+	.gif-player-e .gif-ctrl       { background-position:   0px 0px }
+	.gif-player-e .gif-ctrl:hover { background-position: -34px 0px }
 
-		/*
-		 *	"Loading" state, show "cancel" button
-		 */
-		.gif-player-l .gif-ctrl {
-			background-image: url('/img/css/cancel.gif') !important;
-			background-position: 0px 0px;
-		}
+	/*
+	 *	"Loading" state, show "cancel" button
+	 */
+	.gif-player-l .gif-ctrl {
+		background-image: url('/img/css/cancel.gif') !important;
+		background-position: 0px 0px;
+	}
 
-		.gif-player-l .gif-ctrl:hover {
-			background-image: url('/img/css/buttons.png') !important;
-			background-position: -34px -34px;
-		}
-	
-		/*
-		 *	"Stopped" state, show "play" button
-		 */
-		.gif-player-s .gif-ctrl       { background-position:   0px 0px }
-		.gif-player-s .gif-ctrl:hover { background-position: -34px 0px }
+	.gif-player-l .gif-ctrl:hover {
+		background-image: url('/img/css/buttons.png') !important;
+		background-position: -34px -34px;
+	}
 
-		/*
-		 *	"Playing" state, show "stop" button
-		 */
-		.gif-player-p .gif-ctrl       { background-position:   0px -68px }
-		.gif-player-p .gif-ctrl:hover { background-position: -34px -68px }
+	/*
+	 *	"Stopped" state, show "play" button
+	 */
+	.gif-player-s .gif-ctrl       { background-position:   0px 0px }
+	.gif-player-s .gif-ctrl:hover { background-position: -34px 0px }
+
+	/*
+	 *	"Playing" state, show "stop" button
+	 */
+	.gif-player-p .gif-ctrl       { background-position:   0px -68px }
+	.gif-player-p .gif-ctrl:hover { background-position: -34px -68px }
 
 [href^="#"] {
     position: relative;
