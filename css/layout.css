@@ -241,7 +241,7 @@ b {
 }
 
 [href^="#"]:hover:before {
-    content: '#';
+    content: '\b6';
     right: 100%;
     position: absolute;
     margin-right: .2em;
