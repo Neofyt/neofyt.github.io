@@ -236,6 +236,9 @@ b {
 		.gif-player-p .gif-ctrl       { background-position:   0px -68px }
 		.gif-player-p .gif-ctrl:hover { background-position: -34px -68px }
 
+[href^="#"] {
+    position: relative;
+}
 
 [href^="#"]:hover:before {
     content: '#';
