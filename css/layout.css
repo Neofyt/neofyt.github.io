@@ -138,6 +138,11 @@ aside img {
 	height: 100px;
 }
 
+p {
+	text-indent: 15px;
+	margin-bottom: 30px;
+}
+
 article img {
 	width: 400px;
 	position: relative;
@@ -145,10 +150,9 @@ article img {
 	margin-left: -205px;
 }
 
-p {
-	line-height: 22px;
-	text-indent: 15px;
-	margin-bottom: 30px;
+article p {
+	line-height: 26px;
+	text-align: justify;
 }
 
 footer {
