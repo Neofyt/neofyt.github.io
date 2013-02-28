@@ -44,6 +44,10 @@ h2 {
 	font-size: 22px;
 }
 
+li h2 {
+	margin-top: 20px;
+}
+
 section {
     margin: 50px auto 0;
     max-width: 1020px;
