@@ -263,3 +263,18 @@ b {
     font-size: 20px;
     text-decoration: none;
 }
+
+:target {
+  -webkit-animation: highlight 1s ease;  
+  -moz-animation: highlight 1s ease;   
+}
+
+@-webkit-keyframes highlight {
+  0% { background: #558ed5; color: #fff; }
+  100% { background: transparent; color: #558ed5; }
+}
+
+@-moz-keyframes highlight {
+  0% { background: #558ed5; color: #fff; }
+  100% { background: transparent; color: #558ed5; }
+} 
