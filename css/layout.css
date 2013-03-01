@@ -265,8 +265,9 @@ b {
 }
 
 :target {
-  -webkit-animation: highlight 1s ease;  
-  -moz-animation: highlight 1s ease;   
+  -webkit-animation: highlight 3s ease;  
+  -moz-animation: highlight 3s ease; 
+  animation: highlight 3s ease;     
 }
 
 @-webkit-keyframes highlight {
