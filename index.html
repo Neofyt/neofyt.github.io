@@ -1,35 +1,170 @@
----
-layout: default
-title: Home
-home: yes
----
-    
-<ul>
-	{% for post in paginator.posts %}
-		<li>
-			<h2><a href="{{ post.url }}">{{ post.title }}</a><span>{{ post.date | date: "%d %B, %Y" }}</span></h2>
-		</li>
-	{% endfor %}
-</ul>
+<!DOCTYPE HTML>
+<html>
 
-<ol>
-    <li>
-        {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-            <a href="/">Previous</a>
-        {% else %}
-            <a href="/page{{paginator.previous_page}}">Previous</a>
-        {% endif %}
-        {% else %}
-            Previous
-        {% endif %}
-    </li>
-    <li>&nbsp;&ndash;&nbsp;</li>
-    <li>
-        {% if paginator.next_page %}
-            <a href="/page{{paginator.next_page}}">Next</a>
-        {% else %}
-            Next
-        {% endif %}
-    </li>
-</ol>
+	<head>
+		<title>Neofyt</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<link rel="shortcut icon" type="image/png" href="favicon.ico" />
+		<style type="text/css">
+			body {
+				font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+				font-size: 12px;
+				padding-top: 40px;
+				color: #656565;
+				background: #fafafa;
+			}
+
+			body:before { /* top shadow */
+				content: "";
+				position: fixed;
+				top: -10px;
+				left: -10px;
+				width: 110%;
+				height: 10px;
+				box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+				z-index: 100;
+			}
+
+			h1 {
+				position: absolute;
+				right: 20px;
+				bottom: 10px;
+				margin: 0;
+				font-size: 70px;
+				line-height: 70px;
+			}
+
+			span:not(.legend) {
+				color: #ccc;
+			}
+
+			ul { list-style-type: none; }
+
+			div {
+			    margin: 0 40px 70px;
+			}
+
+			pre, .legend {
+			    font-family:"Inconsolata", "Monaco", "Consolas", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+			    text-shadow: 0 0 0;
+			    padding:10px 10px 10px 20px;
+			    background-color:#eee;
+			    overflow:auto;
+			    margin: 0 30px 60px 10px;
+			    border-left: solid 3px #999;
+			}
+
+			.website {
+				border-color: #558ed5;
+			}
+
+			.extension {
+				border-color: green;
+			}
+
+			.script {
+				border-color: orange;
+			}
+
+			a {
+				border-radius: 3px;
+				border: 1px solid #d3d3d3;
+				display: inline-block;
+				height: 18px;
+				line-height: 18px;
+				padding: 0 8px;
+				position: relative;
+				text-decoration: none;
+				margin: 10px 2px 10px 0;
+				background-color: #fff;
+				font-style: normal;
+				text-shadow: 0 0 0;
+				-webkit-box-shadow: 0 1px 2px -1px #aaa;
+				-moz-box-shadow: 0 1px 2px -1px #aaa;
+				box-shadow: 0 1px 2px -1px #aaa;
+			}
+
+			a:hover {
+				background-color: #656565;
+				border-color: #656565;
+				color: #fff !important;
+			}
+
+			.web {
+				color: #558ed5;
+			}
+
+				a.web:hover {
+					background-color: #558ed5;
+					border-color: #558ed5;
+				}
+
+			.ext {
+				color: green;
+			}
+
+				a.ext:hover {
+					background-color: green;
+					border-color: green;
+				}
+
+			.scr {
+				color: orange;
+			}
+
+				a.scr:hover {
+					background-color: orange;
+					border-color: orange;
+				}
+
+			.legend {
+				padding : 10px;
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<div>
+			<span class="legend web website">websites</span>
+			<span class="legend ext extension">extensions</span>
+			<span class="legend scr script">scripts</span>
+		</div>
+
+		<h1>neofyt<span><b>.</b>com</span></h1>
+
+		<ul>
+			<li>
+				<p><a class="web" href="http://adoctorwhoquoteaday.com/">adoctorwhoquoteaday.com</a></p>
+				<!-- <pre class="website">A website displaying one quote from the Doctor each day of the year.</pre> -->
+				<pre class="website">Each day, discover a new quote from the most famous Doctor...</pre>
+			</li>
+
+			<li>
+				<p><a class="scr" href="#">jQuery.selectr</a> <i>- last update : v1.0.h - 20180414</i></p>
+				<pre class="script">A jQuery plugin for table rows selection/deselection "a la" gmail.</pre>
+			</li>
+
+		</ul>
+
+		<script>
+
+			let classes = ["web","ext","scr"];
+
+
+			Array.prototype.rdm = function(){
+				return this[Math.floor(Math.random() * this.length)];
+			}
+
+			function $(expr) { return document.body.querySelector(expr); }
+
+			function init(){
+				$("b").setAttribute("class",classes.rdm());
+			}
+
+			init();
+
+		</script>
+
+	</body>
+</html>
