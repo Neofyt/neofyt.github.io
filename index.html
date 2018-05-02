@@ -1,9 +1,10 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 
 	<head>
 		<title>Neofyt</title>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<meta name="Description" content="neofyt.com">
 		<link rel="shortcut icon" type="image/png" href="favicon.ico" />
 		<style type="text/css">
 			body {
@@ -32,10 +33,7 @@
 				margin: 0;
 				font-size: 70px;
 				line-height: 70px;
-			}
-
-			span:not(.legend) {
-				color: #ccc;
+				z-index: 2;
 			}
 
 			ul { list-style-type: none; }
@@ -47,18 +45,19 @@
 			pre, .legend {
 			    font-family:"Inconsolata", "Monaco", "Consolas", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
 			    text-shadow: 0 0 0;
-			    padding:10px 10px 10px 20px;
-			    background-color:#eee;
+			    padding: 10px 20px;
+			    background-color: #eee;
 			    overflow:auto;
 			    margin: 0 30px 60px 10px;
 			    border-left: solid 3px #999;
+				position: relative;
 			}
 
 			.website {
 				border-color: #558ed5;
 			}
 
-			.extension {
+			.experiment {
 				border-color: green;
 			}
 
@@ -79,8 +78,6 @@
 				background-color: #fff;
 				font-style: normal;
 				text-shadow: 0 0 0;
-				-webkit-box-shadow: 0 1px 2px -1px #aaa;
-				-moz-box-shadow: 0 1px 2px -1px #aaa;
 				box-shadow: 0 1px 2px -1px #aaa;
 			}
 
@@ -99,11 +96,11 @@
 					border-color: #558ed5;
 				}
 
-			.ext {
+			.exp {
 				color: green;
 			}
 
-				a.ext:hover {
+				a.exp:hover {
 					background-color: green;
 					border-color: green;
 				}
@@ -117,8 +114,16 @@
 					border-color: orange;
 				}
 
-			.legend {
-				padding : 10px;
+			.new {
+				background: red;
+				padding: 2px 3px;
+				border-radius: 3px;
+				color: white;
+				font-size: 10px;
+			}
+
+			.light {
+				color: #ccc
 			}
 
 		</style>
@@ -127,43 +132,33 @@
 
 		<div>
 			<span class="legend web website">websites</span>
-			<span class="legend ext extension">extensions</span>
+			<span class="legend exp experiment">experiments</span>
 			<span class="legend scr script">scripts</span>
 		</div>
 
-		<h1>neofyt<span><b>.</b>com</span></h1>
+		<h1>neofyt<span><b id="point">.</b><span class="light">com</span></span></h1>
 
 		<ul>
 			<li>
-				<p><a class="web" href="http://adoctorwhoquoteaday.com/">adoctorwhoquoteaday.com</a></p>
-				<!-- <pre class="website">A website displaying one quote from the Doctor each day of the year.</pre> -->
+				<p><a class="web" href="http://adoctorwhoquoteaday.com/">adoctorwhoquoteaday.com</a> <span class="new">new</span></p>
 				<pre class="website">Each day, discover a new quote from the most famous Doctor...</pre>
 			</li>
 
 			<li>
-				<p><a class="scr" href="#">jQuery.selectr</a> <i>- last update : v1.0.h - 20180414</i></p>
+				<p><a class="scr" href="https://neofyt.github.io/jQuery.selectr/">jQuery.selectr</a> <i>- last update : v1.0.h</i></p>
 				<pre class="script">A jQuery plugin for table rows selection/deselection "a la" gmail.</pre>
 			</li>
-
+			
+			<li>
+				<p><a class="exp" href="https://neofyt.github.io/Conway/">Conway's Game of life</a> <i></i></p>
+				<pre class="experiment">My own version of probably the most famous cellular automaton invented by John Conway .</pre>
+			</li>
 		</ul>
 
 		<script>
+			var classes = ["web","ext","scr"];
 
-			let classes = ["web","ext","scr"];
-
-
-			Array.prototype.rdm = function(){
-				return this[Math.floor(Math.random() * this.length)];
-			}
-
-			function $(expr) { return document.body.querySelector(expr); }
-
-			function init(){
-				$("b").setAttribute("class",classes.rdm());
-			}
-
-			init();
-
+			point.setAttribute("class",classes[Math.floor(Math.random() * classes.length)]);
 		</script>
 
 	</body>
