@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+	<head>
+		<title>Neofyt - 404</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<meta name="Description" content="neofyt.com">
+		<link rel="shortcut icon" type="image/png" href="favicon.ico" />
+		<style type="text/css">
+			body {
+				font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+				font-size: 12px;
+				padding-top: 40px;
+				color: red;
+				background: #fafafa;
+			}
+
+			body:before { /* top shadow */
+				content: "";
+				position: fixed;
+				top: -10px;
+				left: -10px;s
+				width: 110%;
+				height: 10px;
+				box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+				z-index: 100;
+			}
+
+			h1 {
+				position: absolute;
+				right: 20px;
+				bottom: 10px;
+				margin: 0;
+				font-size: 70px;
+				line-height: 70px;
+				z-index: 2;
+			}
+
+			ul { list-style-type: none; }
+
+			pre, .legend {
+			    font-family:"Inconsolata", "Monaco", "Consolas", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+			    text-shadow: 0 0 0;
+			    padding: 10px 20px;
+			    background-color: #eee;
+			    overflow:auto;
+			    margin: 0 30px 60px 10px;
+			    border-left: solid 3px #999;
+				position: relative;
+			}
+
+			a {
+				border-radius: 3px;
+				border: 1px solid #d3d3d3;
+				display: inline-block;
+				height: 18px;
+				line-height: 18px;
+				padding: 0 8px;
+				position: relative;
+				text-decoration: none;
+				margin: 10px 2px 10px 0;
+				background-color: #fff;
+				font-style: normal;
+				text-shadow: 0 0 0;
+				box-shadow: 0 1px 2px -1px #aaa;
+			}
+
+			._404 {
+				background-color: red;
+				border-color: red;
+				color: #fff;
+			}
+			
+				a._404:hover {
+					background-color: red;
+				}
+				
+				.error {border-color: red;}
+
+		</style>
+	</head>
+	<body>
+
+		<h1>404</h1>
+
+		<ul>
+			<li>
+				<p><a class="_404" href="#">404 - PAGE NOT FOUND</a></p>
+				<pre class="error">Redirecting to homepage...</pre>
+			</li>
+		</ul>
+
+		<script>
+			
+			function redirect(){
+				setTimeout(function(){
+					location.href = "http://neofyt.com";
+				},3000);
+			}
+			
+			redirect();
+		</script>
+
+	</body>
+</html>
