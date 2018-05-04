@@ -38,8 +38,12 @@
 				z-index: 2;
 			}
 
-			ul { list-style-type: none; }
+			.light {
+				color: #ccc
+			}
 
+			ul { list-style-type: none; }
+			
 			div {
 			    margin: 0 40px 70px;
 			}
@@ -54,17 +58,10 @@
 			    border-left: solid 3px #999;
 				position: relative;
 			}
-
-			.website {
-				border-color: #558ed5;
-			}
-
-			.experiment {
-				border-color: green;
-			}
-
-			.script {
-				border-color: orange;
+			
+			a:hover, .legend:hover {
+				color: #fff;
+				cursor: pointer;
 			}
 
 			a {
@@ -83,35 +80,41 @@
 				box-shadow: 0 1px 2px -1px #aaa;
 			}
 
-			a:hover {
-				background-color: #656565;
-				border-color: #656565;
-				color: #fff !important;
+			.website {
+				border-color: #558ed5;
 			}
 
 			.web {
 				color: #558ed5;
 			}
 
-				a.web:hover {
+				a.web:hover, span.website:hover {
 					background-color: #558ed5;
 					border-color: #558ed5;
 				}
+
+			.experiment {
+				border-color: green;
+			}
 
 			.exp {
 				color: green;
 			}
 
-				a.exp:hover {
+				a.exp:hover, span.experiment:hover {
 					background-color: green;
 					border-color: green;
 				}
+
+			.script {
+				border-color: orange;
+			}
 
 			.scr {
 				color: orange;
 			}
 
-				a.scr:hover {
+				a.scr:hover, span.script:hover {
 					background-color: orange;
 					border-color: orange;
 				}
@@ -123,37 +126,53 @@
 				color: white;
 				font-size: 10px;
 			}
-
-			.light {
-				color: #ccc
-			}
+			
+			.reset { display: none; }
+			
+			.reset:hover { background-color: #999 } 
+			
+			[data-what="website"] [data-type="experiment"],
+			[data-what="website"] [data-type="script"],	
+			
+			[data-what="experiment"] [data-type="website"],
+			[data-what="experiment"] [data-type="script"],	
+			
+			[data-what="script"] [data-type="website"],
+			[data-what="script"] [data-type="experiment"]			
+			
+			{ display: none; }
+			
+			[data-what="website"] .reset,
+			[data-what="experiment"] .reset,
+			[data-what="script"] .reset { display: inline; }
 
 		</style>
 	</head>
 	<body>
 
 		<div>
-			<span class="legend web website">websites</span>
-			<span class="legend exp experiment">experiments</span>
-			<span class="legend scr script">scripts</span>
+			<span class="legend web website" data-for="website">websites</span>
+			<span class="legend exp experiment" data-for="experiment">experiments</span>
+			<span class="legend scr script" data-for="script">scripts</span>
+			<span class="legend reset" data-for="">all</span>
 		</div>
 
 		<h1>neofyt<span><b id="point">.</b><span class="light">com</span></span></h1>
 
 		<ul>
-			<li>
+			<li data-type="website">
 				<p><a class="web" href="http://adoctorwhoquoteaday.com/">adoctorwhoquoteaday.com</a> <span class="new">new</span></p>
 				<pre class="website">Each day, discover a new quote from the most famous Doctor...</pre>
 			</li>
 
-			<li>
+			<li data-type="script">
 				<p><a class="scr" href="https://neofyt.github.io/jQuery.selectr/">jQuery.selectr</a> <i>- last update : v1.0.h</i></p>
 				<pre class="script">A jQuery plugin for table rows selection/deselection "a la" gmail.</pre>
 			</li>
 
-			<li>
+			<li data-type="experiment">
 				<p><a class="exp" href="https://neofyt.github.io/Conway/">Conway's Game of life</a> <i></i></p>
-				<pre class="experiment">My own version of probably the most famous cellular automaton invented by John Conway .</pre>
+				<pre class="experiment">My own version of probably the most famous cellular automaton invented by John Conway.</pre>
 			</li>
 		</ul>
 
@@ -161,6 +180,17 @@
 			var classes = ["web","exp","scr"];
 
 			point.setAttribute("class",classes[Math.floor(Math.random() * classes.length)]);
+			
+			function $(expr) { return document.querySelector(expr); }
+			function $$(expr) { return document.querySelectorAll(expr); }
+
+			var selectors = $$('.legend');
+			
+			for (i = 0; i < selectors.length; ++i) {
+				selectors[i].onclick = function(){
+					$("body").setAttribute("data-what",this.getAttribute("data-for"));
+				}
+			}
 		</script>
 
 	</body>
