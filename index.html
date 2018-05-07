@@ -88,9 +88,10 @@
 				color: #558ed5;
 			}
 
-				a.web:hover, span.website:hover {
+				a.web:hover, span.website:hover, [data-what="website"] span.website {
 					background-color: #558ed5;
 					border-color: #558ed5;
+					color: #fff;
 				}
 
 			.experiment {
@@ -101,9 +102,10 @@
 				color: green;
 			}
 
-				a.exp:hover, span.experiment:hover {
+				a.exp:hover, span.experiment:hover, [data-what="experiment"] span.experiment {
 					background-color: green;
 					border-color: green;
+					color: #fff;
 				}
 
 			.script {
@@ -114,9 +116,10 @@
 				color: orange;
 			}
 
-				a.scr:hover, span.script:hover {
+				a.scr:hover, span.script:hover, [data-what="script"] span.script {
 					background-color: orange;
 					border-color: orange;
+					color: #fff;
 				}
 
 			.new {
@@ -173,6 +176,11 @@
 			<li data-type="experiment">
 				<p><a class="exp" href="https://neofyt.github.io/Conway/">Conway's Game of life</a> <i></i></p>
 				<pre class="experiment">My own version of probably the most famous cellular automaton invented by John Conway.</pre>
+			</li>
+			
+			<li data-type="experiment">
+				<p><a class="exp" href="https://neofyt.github.io/4bitsClock/">4bits Clock</a> <i></i></p>
+				<pre class="experiment">Just a little clock.</pre>
 			</li>
 		</ul>
 
